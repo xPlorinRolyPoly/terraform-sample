@@ -1,0 +1,3 @@
+instancetype="t2.nano"
+accesskey="YYYYYYYYYYYYYYYYYYYY"
+secretkey="YYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
