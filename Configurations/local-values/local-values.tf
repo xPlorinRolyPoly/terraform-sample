@@ -12,6 +12,7 @@ locals {
     Owner = "DevOps Team"
     service = "backend"
   }
+  name_prefix = "${var.name != "" ? var.name : var.default}"
 }
 
 resource "aws_instance" "app-dev" {
