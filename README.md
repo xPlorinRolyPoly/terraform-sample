@@ -5,7 +5,7 @@
     terraform init
     ```
 
-- To run dry run
+- To create an execution plans
     ```
     terraform plan
     ```
