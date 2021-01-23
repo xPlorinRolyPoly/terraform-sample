@@ -12,10 +12,10 @@ resource "aws_s3_bucket" "terraforms3" {
   bucket = "alpana-terraform-bkt"
 }
 
-/* output "eip" {
-  value = aws_eip.lb
+output "eip" {
+  value = aws_eip.lb.public_ip
 }
 
 output "terraforms3bkt" {
-  value = aws_s3_bucket.terraforms3
-} */
+  value = aws_s3_bucket.terraforms3.bucket_domain_name
+}
